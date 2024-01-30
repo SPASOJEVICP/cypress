@@ -1,0 +1,25 @@
+class RegistrationPage {
+
+    get firstNameField () {
+        return cy.get("#first-name")
+        
+    }
+    get lastNameField(){
+        cy.get("#last-name");
+    }
+    get emailField(){
+        cy.get("#email");
+    }
+    get passwordField(){
+        cy.get("#password");
+    }
+    get passwordconfirmationField(){
+        cy.get("#password-confirmation");
+    }
+    get formcheckinputField(){
+        cy.get(".form-check-input");
+    }
+    get buttonField(){
+        cy.get("button");
+    }
+}
